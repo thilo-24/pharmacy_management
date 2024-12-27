@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Signup</title>
+		<link rel="icon" type="image/x-icon" href="logoletter.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <section class="container forms">
+        <div class="form Signup">
+            <div class="form-content" id="Signup">
+                <header>Signup</header>
+                <form method="post" action="signup.php">  
+                    <div class="field input-field">
+                        <input type="text" name="Uname" id="Uname" placeholder="Username" class="input">
+                    </div>
+                    <div class="field input-field">
+                        <input type="text" name="address" id="address" placeholder="Address" class="input">
+                    </div>
+                    <div class="field input-field">
+                        <input type="number" name="Age" id="Age" placeholder="Age" class="input">
+                    </div>
+                    <div class="field input-field">
+                        <input type="email" name="email" id="email" placeholder="Email" class="input">
+                    </div>
+                    <div class="field input-field">
+                        <input type="password" name="password" id="password" placeholder="Password" class="password">
+                        <i class='bx bx-hide eye-icon'></i>
+                    </div>
+                    <div class="field button-field">
+                       <button type="submit" name="submit">Signup</button>
+                    </div>
+                </form>
+                <div class="form-link">
+                    <span>Already have an account? <a href="login.html" class="link login-link">Login</a></span>
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="media-options">
+                <a href="#" class="field facebook">
+                    <i class='bx bxl-facebook facebook-icon' ></i>
+                    <span>Login with Facebook</span>
+                </a>
+            </div>
+            <div class="media-options">
+                <a href="#" class="field google">
+                    <img src="image/R.png" alt="" class="google-img">
+                    <span>Login with Google</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
